@@ -27,7 +27,8 @@ values(grades)
 100 ∈ values(grades)
 "isaac" ∈ keys(grades)
 
-haskey(grades, "isaac", "newton")
+haskey(grades, "isaac")
+haskey(grades, "marie")
 
 get(grades, "albert", "not found")
 get(grades, "bertrand", "not found")
